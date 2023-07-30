@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Generate Multiplication Table</title>
+</head>
+<body>
+  <script>
+function generateMultiplicationTable(number) {
+  for (let i = 1; i <= 10; i++) {
+    document.write(number + " x " + i + " = " + (number * i) + "<br>");
+  }
+}
+
+const userInput = prompt("Enter a number");
+const number = parseInt(userInput);
+
+if (isNaN(number)) {
+  console.log("Please enter a valid number.");
+} else {
+  console.log("Generate Multiplication Table for: " + number);
+  generateMultiplicationTable(number);
+}
+  </script>
+</body>
+</html>
