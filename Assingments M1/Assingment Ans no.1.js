@@ -10,10 +10,10 @@ function calculateDiscount(totalPurchaseAmount) {
   }
   return discountedAmount;
 }
-const totalPurchaseAmount1 = 30;
-const totalPurchaseAmount2 = 75;
-const totalPurchaseAmount3 = 150;
-const totalPurchaseAmount4 = 250;
+const totalPurchaseAmount1 = 32;
+const totalPurchaseAmount2 = 74;
+const totalPurchaseAmount3 = 153;
+const totalPurchaseAmount4 = 255;
 
 const discount1 = calculateDiscount(totalPurchaseAmount1);
 const discount2 = calculateDiscount(totalPurchaseAmount2);
