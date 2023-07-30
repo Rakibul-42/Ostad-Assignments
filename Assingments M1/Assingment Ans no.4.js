@@ -13,10 +13,10 @@ function calculateGrade(score) {
 }
 
 const score1 = 95;
-const score2 = 82;
+const score2 = 85;
 const score3 = 75;
-const score4 = 66;
-const score5 = 50;
+const score4 = 65;
+const score5 = 55;
 
 console.log("Score: " + score1 + ", Grade: " + calculateGrade(score1));
 console.log("Score: " + score2 + ", Grade: " + calculateGrade(score2));
