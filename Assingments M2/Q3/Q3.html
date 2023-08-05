@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Switcher Example</title>
+</head>
+<body>
+  <img id="imageElement" src="image1.jpg" alt="Image 1">
+  <button id="button1">Switch to Image 1</button>
+  <button id="button2">Switch to Image 2</button>
+  <script>
+    const imageElement = document.getElementById('imageElement');
+    const button1 = document.getElementById('button1');
+    const button2 = document.getElementById('button2');
+
+    button1.addEventListener('click', () => {
+      imageElement.src = 'image1.jpeg';
+    });
+
+    button2.addEventListener('click', () => {
+      imageElement.src = 'image2.jpeg';
+    });
+  </script>
+</body>
+</html>
