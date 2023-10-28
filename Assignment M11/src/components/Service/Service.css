@@ -1,0 +1,9 @@
+.items{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+.items p {
+    margin: 5px;
+}
