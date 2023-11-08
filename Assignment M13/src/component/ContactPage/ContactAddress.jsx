@@ -6,7 +6,7 @@ function ContactAddress() {
       <h2>Our Address</h2>
       <address>
         Rajshahi Greater road Road<br />
-        Rajshahi, 1210<br />
+        Rajshahi, 6000<br />
         Phone: (880) 22-00111670<br />
         Email: contact.example@gmail.com
       </address>
