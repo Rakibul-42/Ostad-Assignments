@@ -1,0 +1,18 @@
+.footer {
+    height: 27px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(82, 199, 199);
+    margin-top: 20px;
+    text-decoration:double;
+    vertical-align:middle;
+}
+
+.active-item{
+    color: blueviolet;
+}
+
+.pending-item{
+    color: brown;
+}

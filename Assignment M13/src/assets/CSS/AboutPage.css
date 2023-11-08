@@ -1,0 +1,19 @@
+.about-parent-pages-level{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-content{
+    background-color:aliceblue;
+    padding: 10px;
+}
+
+.about-team{
+    background-color:rgb(225, 240, 253);
+    padding: 10px;
+}
+
+.about-mission{
+    background-color:rgb(201, 227, 250);
+    padding: 10px;
+}
