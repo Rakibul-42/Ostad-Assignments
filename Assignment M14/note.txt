@@ -1,2 +1,0 @@
-//live site link 
-https://smth.netlify.app/
