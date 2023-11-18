@@ -13,16 +13,17 @@ const WorkList = () => {
     const cardData = [
         {
             id: 1,
-            icon: <RiMessage3Line />,
-            heading: 'Grow Your Business',
+            icon: <FaRegHeart />,
+            heading: 'Improve brand loyalty',
             des: 'We help identify the best ways to improve your business',
         },
         
         {
             id: 2,
-            icon: <FaRegHeart />,
-            heading: 'Improve brand loyalty',
+            icon: <RiMessage3Line />,
+            heading: 'Grow Your Business',
             des: 'We help identify the best ways to improve your business',
+
         },
         
         {
@@ -37,9 +38,9 @@ const WorkList = () => {
     const smallCardData = [
         {
           id: 1,
-          name: 'Followers',
-          count: 240452,
-          icon: <GrGroup />,
+          name: 'Project',
+          count: 360452,
+          icon: <PiWebhooksLogoDuotone />,
         },
         {
           id: 2,
@@ -55,9 +56,9 @@ const WorkList = () => {
         },
         {
           id: 4,
-          name: 'Project',
-          count: 360452,
-          icon: <PiWebhooksLogoDuotone />,
+          name: 'Followers',
+          count: 240452,
+          icon: <GrGroup />,
         },
        
         
@@ -66,10 +67,7 @@ const WorkList = () => {
     return (
         <div className='container p-10'>
             <h4 className='uppercase font-semibold text-green-400'>Work List</h4>
-            <h3 className='text-2xl font-bold'>
-                We provide the Perfect Solution <br /> to your business growth 
-                
-            </h3>
+            <h3 className='text-2xl font-bold'>We provide the Perfect Solution <br /> to your business</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 p-4 my-8">
                 {cardData.map((data) => (
                     <div key={data.id} className="bg-black p-6 ">
