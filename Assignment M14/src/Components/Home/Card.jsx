@@ -14,10 +14,10 @@ const Card = () => {
             <div className="flex flex-col lg:flex-row justify-around   rounded-md overflow-hidden mx-4 my-8 lg:mx-auto lg:w-3/4 xl:w-full p-15 ">
                 <div className="w-96 mx-10 flex flex-col justify-center">
                     <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white-800">
-                        Increase Your Customers Loyalty and Satisfaction
+                        Increase Your Customers Satisfaction
                     </h2>
                     <p className="text-base lg:text-lg text-white-600">
-                        We help businesses like yours earn more customers, stand out from competitors, make more money.
+                        We help businesses like yours to earn more customers, stand out from other competitors, to earn more money.
                     </p>
                     <button className="btn btn-success mt-4">
                         Get Started
