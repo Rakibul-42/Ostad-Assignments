@@ -42,7 +42,7 @@ const FeaturedProject = () => {
         <div className=' p-10 bg-black-200'>
             <h4 className='uppercase font-semibold text-white-400'>Featured Project</h4>
             <h3 className='text-2xl font-bold'>
-                We provide the Perfect Solution <br /> to your business growth
+                We provide the Perfect Solution <br /> for your business growth
 
             </h3>
             <div className="flex justify-center gap-8 p-4 h-1/3 my-12 bg-black-200">
