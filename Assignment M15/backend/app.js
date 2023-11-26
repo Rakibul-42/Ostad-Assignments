@@ -31,7 +31,7 @@ const limiter = rateLimit({
     max: 2000
 })
 app.use(limiter)
-const URL = 'mongodb://localhost:27017/database' //add your database
+const URL = 'mongodb://localhost:27017/your-database' //add your database
 //Database connection
 mongoose.connect(URL)
 .then(() => {
